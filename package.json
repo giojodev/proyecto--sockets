@@ -1,0 +1,27 @@
+{
+  "name": "proyecto--sockets",
+  "version": "1.0.0",
+  "description": "proyecto de chat con nodejs y socket io",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giojodev/proyecto--sockets.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giojodev/proyecto--sockets/issues"
+  },
+  "homepage": "https://github.com/giojodev/proyecto--sockets#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
