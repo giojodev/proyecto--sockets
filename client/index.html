@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat con Socket.io y NodeJS</title>
+    <link rel="stylesheet" href="CSS/style.css">
     <script src="/socket.io/socket.io.js" type="text/javascript"></script>
     <script src="main.js" type="text/javascript"></script>
 </head>
 <body>
     <h1>Chat con Socket.io y NodeJS</h1>
-    <div id="messages">
-        
-    </div>
+    <div id="messages"></div>
+    <form action="" onsubmit="addMessage(this);">
+        <input id="nickname" type="text" placeholder="nick"><br>
+        <textarea name="" id="text" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
